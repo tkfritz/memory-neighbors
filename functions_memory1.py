@@ -134,7 +134,7 @@ def prob_all_perm(n_pair):
         no_neighbor+=c
     stop_time=time.time()
     print(f"run time is {round(stop_time-start_time,4)} sec")
-    print(f"no neighbor in tile to {round(no_neighbor/arr.shape[0]*100,2)} % ")  
+    print(f"no neighboring pair in tiling to {round(no_neighbor/arr.shape[0]*100,2)} % ")  
     return no_neighbor/arr.shape[0]
 
 
